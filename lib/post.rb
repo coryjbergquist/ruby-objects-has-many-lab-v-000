@@ -4,12 +4,7 @@ class Post
 
   def initialize(name)
     @title = name
-
-  end
-
-  def new(name)
-    post = self.new(name)
-    @@all << post
+    @@all << self
   end
 
   def author
