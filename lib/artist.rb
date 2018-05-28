@@ -18,7 +18,7 @@ attr_accessor :name
 
     @songs << song
         song.artist = self
-        binding.pry
+      
   end
 
 end
