@@ -12,8 +12,8 @@ class Author
   end
 
   def add_post(title)
-    post = title
-    @posts << post    
+    
+    @posts << title    
   end
 
 end
