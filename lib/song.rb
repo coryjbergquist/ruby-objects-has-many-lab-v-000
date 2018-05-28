@@ -6,8 +6,8 @@ attr_accessor :name, :artist
 
   end
 
-  def artist(artist)
-    @artist = artist
+  def artist
+    @artist 
   end
 
 end
