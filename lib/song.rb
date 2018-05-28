@@ -11,6 +11,9 @@ attr_accessor :name, :artist
     @artist
   end
 
+  def artist_name
+    @artist.name if @artist != nil
+
 
 
 end
