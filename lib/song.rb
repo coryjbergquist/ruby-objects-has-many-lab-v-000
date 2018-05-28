@@ -7,11 +7,11 @@ attr_accessor :name, :artist
   end
 
   def artist
-    @artist 
+    @artist
   end
 
   def song_count
-    
+
   end
 
 end
