@@ -28,7 +28,7 @@ attr_accessor :name
   def song_count
 
     @songs.count
- 
+
   end
 
 end
