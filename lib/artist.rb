@@ -30,6 +30,4 @@ attr_accessor :name
     @songs.count
   end
 
-  end
-
 end
