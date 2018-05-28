@@ -15,4 +15,8 @@ class Post
     @title
   end
 
+  def author_name
+    @author
+  end
+
 end
