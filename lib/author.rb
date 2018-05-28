@@ -11,4 +11,9 @@ class Author
     @posts
   end
 
+  def add_post(title)
+    post = title
+    @posts << post    
+  end
+
 end
